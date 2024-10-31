@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <!-- Passo 0 -->
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="Imagem inicial com carta sobre a cidade perdida">
+            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade perdida...</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+                <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+            </div>
+        </div>
+
+        <!-- Passo 1 -->
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada no Rio de Janeiro...</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+                <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+            </div>
+        </div>
+
+        <!-- Outros passos omitidos para brevidade -->
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
